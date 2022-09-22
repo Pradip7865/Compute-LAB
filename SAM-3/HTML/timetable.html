@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <title>Time Table
+    </title>
+    <style>
+        *{
+            box-sizing: border-box;
+            text-justify: auto;
+        }
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid rgb(0, 0, 0);
+            text-align: center;
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 5%;
+
+        }
+
+        .co {
+            background: rgb(255, 255, 147);
+        }
+
+        .b {
+            background: rgb(192, 212, 192);
+        }
+        .d{
+            margin: 50px auto;
+            width: 800px;
+            background: white;
+        }
+        .ww{
+            width: 250px;
+            margin: 5% auto;
+        }
+        #na{
+            float: left;
+            width: 48%;
+        }
+        #nm{
+            float: left;
+            width: 48%;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <th colspan="9" class="co">CS-2</th>
+        <tr class="co">
+            <th>Days</th>
+            <th>8:30 to 9:30</th>
+            <th>9:30 to 10:30</th>
+            <th>10:30 to 10:45</th>
+            <th>10:45 to 11:45</th>
+            <th>10:45 to 12:45</th>
+            <th>12:45 to 01:30</th>
+            <th>01:30 to 02:30</th>
+            <th>02:45 to 03:30</th>
+        </tr>
+
+        <tr>
+            <td class="co">Monday</td>
+            <td class="b">Calculus</td>
+            <td class="b">ES</td>
+            <td rowspan="6" class="co">BREAK</td>
+            <td class="b">ED</td>
+            <td class="b">ES</td>
+            <td rowspan="6" class="co">LUNCH</td>
+            <td colspan="2" class="b">PP</td>
+        </tr>
+        <tr>
+            <td class="co">Tuesday</td>
+            <td class="b">Calculus</td>
+            <td class="b">DLD</td>
+            <td colspan="2" class="b">DLD(b1)<br>ED(b2)</td>
+            <td colspan="2" class="b">PP</td>
+        </tr>
+
+        <tr>
+            <td class="co">Wednesday</td>
+            <td class="b">Calculus</td>
+            <td class="b">PP</td>
+            <td class="b">DLD</td>
+            <td class="b">MOOC</td>
+            <td colspan="2" class="b">DLD(b2)<br>ED(b1)</td>
+        </tr>
+        <tr>
+            <td class="co">Thursday</td>
+            <td class="b"> Mooc</td>
+            <td class="b">ES</td>
+            <td colspan="2" class="b">PP</td>
+            <td class="b">PP</td>
+            <td colspan="2" class="b">WD</td>
+        </tr>
+        <tr>
+            <td class="co">Friday</td>
+            <td colspan="2" class="b">NL</td>
+            <td colspan="2" class="b">ED</td>
+            <td class="b">WD</td>
+            <td class="b"> Library</td>
+        </tr>
+        <tr>
+            <td class="co">Saturday</td>
+            <td colspan="2" class="b">WD</td>
+            <td class="b">WD</td>
+            <td class="b">DLD</td>
+            <td colspan="2" class="b">Sports</td>
+        </tr>
+
+    </table>
+    <div class="d">
+        <div class="ww" id="na"> 
+            <p>ES-Environmental studies</p>
+            <p>WD-Web Designing</p>
+            <p>PP-Python Programming</p>
+            <p>NL-Network Laboratory</p>
+            <p>ED-Engineering Drafting</p>
+            <p>DLD-Digital Logic Design</p>
+        </div>
+        <div class="ww" id="nm">
+            <p>KS-Mr.Keyur Surti</p>
+            <p>AJD-Ms.Ankita J.Desai, JT- Ms.Jinal TAndel</p>
+            <p>VDB-Ms.Vishajit D.Bakrola</p>
+            <p>JAP-Mr.Jay A.Patel</p>
+            <p>HSP-Ms.Hardik S.Patel</p>
+        </div>
+    </div>
+</body>
+
+</html>

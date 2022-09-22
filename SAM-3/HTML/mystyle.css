@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+h1{
+    color: darkorchid;
+}
+input{
+    width: 100%;
+}
+.siz{
+    width: 60%;
+}
+p{
+    background-color:rgb(189, 121, 19);
+    color: green;
+}
+h3{
+    color: rgb(211, 25, 25);
+}

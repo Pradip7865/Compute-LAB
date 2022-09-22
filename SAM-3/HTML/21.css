@@ -1,0 +1,42 @@
+body{
+    text-align: justify;
+    border-spacing: 5ch;
+    background-color:blueviolet;
+    border: 0ch;
+}
+body:hover{
+    background-color: chocolate;
+}
+#para1{
+    font-family: fantasy;
+    border: solid;
+    border-color: brown;
+    background-color: black;
+    padding: 2%;
+    color: azure;
+    text-shadow: 2px 3px 5px red, -2px -3px 5px yellow;
+}
+#para1:hover{
+    background-color: azure;
+    color: black;
+    text-align: center;
+}
+.para2{
+    border: solid;
+    text-align: center;
+}
+.para3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border:solid;
+    text-align: left;
+    border-color: crimson;
+    text-shadow: 5px;
+    font-size: 20px;
+    padding: 2%;
+    background-image:url(123.jpeg);
+    color: azure;
+}
+.para4{
+    border: solid;
+    text-align: right;
+}

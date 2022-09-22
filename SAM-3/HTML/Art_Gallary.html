@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art_Gallary</title>
+    <style>
+        body {
+            align-items: center;
+            background-color: blueviolet;
+        }
+
+        .nav {
+            display: block;
+            overflow: hidden;
+            background-color: rgb(177, 202, 205);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            height: 55px;
+        }
+
+        .manu{
+            float: right;
+            color: black;
+            margin: 10px;
+          
+        }
+        h4{
+            text-decoration: none;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        h4:hover{
+            background-color: aliceblue;
+            color: black;
+            height: 55px;
+        }
+
+        .mainbox {
+            display: flex;
+            flex-wrap: none;
+            align-content: space-between;
+            float: left;
+            margin-top: 50px;
+            
+        }
+
+        .imges {
+
+            padding: 20px;
+            align-items: center;
+            flex: auto;
+            justify-content: center;
+        }
+
+        img {
+            vertical-align: middle;
+            padding: 10px;
+            height: 250px;
+            width: 100%;
+
+        }
+
+        img:hover {
+            opacity: 60%;
+        }
+        @media screen and(max-width:600px) {
+            .mainbox{
+                display: flex;
+                flex-basis: auto;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div style="padding-right: 10px;">
+            <div style="float: left; padding-left: 50px;">
+                <h4>Flower Gallary</h4>
+            </div>
+
+            <div class="manu">
+                <h4><a href="#">Home</a></h4>
+            </div>
+            <div class="manu">
+                <h4><a href="#">Contact</a></h4>
+            </div>
+            <div class="manu"><h4><a href="#">About</a></h4>
+            </div> </div>
+    </nav>
+    <div class="mainbox">
+        <div class="imges">
+            <img src="1.jpeg">
+            <img src="2.jpeg">
+            <img src="3.jpeg">
+            <img src="4.jpeg">
+            <img src="5.jpeg">
+            <img src="6.jpeg">
+            <img src="7.jpeg">
+            <img src="8.jpeg">
+            <img src="9.jpeg">
+            <img src="10.jpeg">
+            <img src="11.jpeg">
+            <img src="12.jpeg">
+
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>

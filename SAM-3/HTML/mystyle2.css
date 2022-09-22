@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+.div1{
+    border-style: double;
+    text-align:justify;
+}
+.div2{
+    border-style:dashed;
+}

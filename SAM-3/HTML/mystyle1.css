@@ -1,0 +1,14 @@
+body{
+    background-image:url("pexels-piccinng-3075993.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: justify;
+    color:hsl(0, 0%, 100%);
+}
+h3{
+    background-color:rgba(19, 20, 20, 0.3);
+}
+div{
+    background-image: url("123.png");
+}
